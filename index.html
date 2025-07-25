@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Менеджер завдань</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Список завдань</h1>
+  <form id="task-form">
+    <input type="text" id="task-input" placeholder="Нове завдання" required>
+    <input type="date" id="date-input" required>
+    <label>
+      <input type="checkbox" id="done-input"> Виконано
+    </label>
+    <button type="submit">Додати</button>
+  </form>
+  <ul id="task-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
